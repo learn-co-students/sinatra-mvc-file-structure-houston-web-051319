@@ -5,7 +5,17 @@ class ApplicationController < Sinatra::Base
   	set :public_dir, "public"
   end
 
-  get "/" do
+  get '/name' do
+    
+  end
+
+  get '/breed' do
+    
+  end
+
+  get '/age' do
+    
+  end
   	erb :index
   end
 end
